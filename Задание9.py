@@ -1,0 +1,5 @@
+tower1, tower2, tower3 = map(int, input().split())
+max_tower = max(tower1, tower2, tower3)
+min_tower = min(tower1, tower2, tower3)
+middle_tower = (tower1 + tower2 + tower3) - (max_tower + min_tower)
+print(f'{max_tower} {middle_tower} {min_tower}')
